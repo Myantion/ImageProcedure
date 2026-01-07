@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 打包文件
+build/
+dist/
+*.spec
+*.exe
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# Real-ESRGAN 工具（太大，不放入仓库）
+realesrgan-ncnn-vulkan-*/
+realesrgan-ncnn-vulkan-v0.2.0-windows/
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+
+# 输出文件（示例）
+output*.png
+output*.jpg
+*_pixel.*
+*_enhanced.*
