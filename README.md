@@ -114,26 +114,9 @@ pythonProject/
     └── models/                 # 模型文件目录
 ```
 
-## 🔧 打包说明
-
-### 打包为 exe（单文件）
-
-1. 安装 PyInstaller：
-```bash
-pip install pyinstaller
-```
-
-2. 执行打包命令：
-```bash
-pyinstaller -F -w --collect-all PIL --collect-all Pillow --add-data "realesrgan-ncnn-vulkan-20220424-windows;realesrgan-ncnn-vulkan-20220424-windows" pixel_art_gui.py
-```
-
-3. 打包完成后，exe 文件位于 `dist/pixel_art_gui.exe`
 
 ### 注意事项
 
-- 打包前需确保 `realesrgan-ncnn-vulkan-20220424-windows` 目录存在且包含 `models` 文件夹
-- 打包后的 exe 体积较大（包含所有依赖和模型）
 - 首次运行可能较慢（自解压过程）
 
 ## 📝 AI 超分工具下载（仅源码运行需要）
@@ -181,4 +164,5 @@ A: 将"锐化/模糊"参数调到最小值（0.1），同时降低对比度和�
 ## 📧 反馈
 
 如有问题或建议，欢迎提交 Issue。
+
 
