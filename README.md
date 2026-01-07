@@ -28,7 +28,7 @@
 
 **下载打包好的 exe：**
 
-前往 [Releases](https://github.com/你的用户名/你的仓库名/releases) 页面下载最新版本的 `pixel_art_gui.exe`，双击即可使用，无需安装 Python 环境。
+前往 [Releases](https://github.com/Myantion/ImageProcedure/releases) 页面下载最新版本的 `pixel_art_gui.exe`，双击即可使用，无需安装 Python 环境。
 
 > ⚠️ 注意：exe 文件较大（包含所有依赖和模型），请从 Releases 下载，不要从源码目录下载。
 
@@ -181,3 +181,4 @@ A: 将"锐化/模糊"参数调到最小值（0.1），同时降低对比度和�
 ## 📧 反馈
 
 如有问题或建议，欢迎提交 Issue。
+
